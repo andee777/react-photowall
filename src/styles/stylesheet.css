@@ -1,0 +1,68 @@
+html {
+  font-size: 10px;
+  font-family: 'sans-serif'
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Aladin', cursive;
+  text-align: center;
+  font-size: 10rem;
+  margin: 2rem 0;
+}
+
+.addIcon {
+  margin: 20px auto;
+  display: table;
+  font-size: 70px;
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  padding: 0 20px;
+}
+.principe {
+  max-width: 1160px;
+  margin: 20px auto;
+  font-size: 2rem;
+  text-align: justify;
+}
+.photoGrid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.figures {
+  flex-basis: calc(33.3% - 4rem);
+  border: 2px solid lightGrey;
+  padding: 2rem;
+  flex-grow: 1;
+  margin: 0 2rem 2rem 2rem;
+}
+
+.photo {
+  width: calc(100% + 4rem);
+  margin: -2rem 0 0 -2rem;
+}
+
+.button-container {
+  display:flex;
+  justify-content: center;
+}
+
+.remove-button {
+  flex-basis: 48%;
+  color: red;
+  font-size: 15px;
+  border: 2px solid #f2f2f2;
+  line-height: 2;
+  padding: 5px;
+  background-color: white;
+}
